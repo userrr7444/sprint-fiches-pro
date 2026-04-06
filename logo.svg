@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 220 64" fill="none">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f0d080"/>
+      <stop offset="60%" stop-color="#c9a84c"/>
+      <stop offset="100%" stop-color="#8f7430"/>
+    </linearGradient>
+  </defs>
+  <!-- monogram mark -->
+  <g transform="translate(4,8)">
+    <rect x="1" y="1" width="46" height="46" rx="10" stroke="url(#g)" stroke-width="2"/>
+    <path d="M14 33 C14 38, 20 40, 25 39 C31 38, 33 34, 30 31 C27 28, 17 28, 16 23 C15 18, 20 14, 26 14 C31 14, 34 16, 35 20"
+          stroke="url(#g)" stroke-width="2.6" stroke-linecap="round" fill="none"/>
+    <!-- speed line = sprint -->
+    <path d="M6 44 L22 44" stroke="url(#g)" stroke-width="2" stroke-linecap="round" opacity="0.85"/>
+    <path d="M0 48 L14 48" stroke="url(#g)" stroke-width="2" stroke-linecap="round" opacity="0.55"/>
+  </g>
+  <!-- wordmark -->
+  <g transform="translate(64,0)" font-family="'Playfair Display', serif">
+    <text x="0" y="28" font-size="20" font-weight="700" fill="#ffffff" letter-spacing="0.5">Sprint Fiches</text>
+    <text x="0" y="50" font-size="13" font-weight="600" fill="#c9a84c" letter-spacing="6" font-family="Inter, sans-serif">P R O</text>
+  </g>
+</svg>
